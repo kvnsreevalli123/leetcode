@@ -12,7 +12,7 @@ public:
                     if(s[i]==s[j])
                     {
                        b=1; 
-                        cout<<s[i]<<endl;
+                        
                       break;
                     }
                 
@@ -22,13 +22,12 @@ public:
                 if(b!=1)
                 {
                    a++;
-                    cout<<s[i]<<"hi"<<endl;
                     
                     return i;
                 }
             b=0;
         }
-        cout<<a;
+        
         return -1;
     }
 };
