@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int a=0;
+    
     int b=0;
     int firstUniqChar(string s) {
         for(int i=0;i<s.size();i++)
@@ -21,7 +21,7 @@ public:
                 }
                 if(b!=1)
                 {
-                   a++;
+                 
                     
                     return i;
                 }
