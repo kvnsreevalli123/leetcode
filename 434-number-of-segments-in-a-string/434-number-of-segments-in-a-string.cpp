@@ -15,11 +15,13 @@ public:
            if(c==0 && s[i]==' ')
            {
                a.push_back(s1);
+               words++;
                s1=" ";
                c=1;
            }
            if(c==0 && i==s.length()-1)
            {a.push_back(s1);
+            words++;
                s1=" ";
                c=1;
                
@@ -27,6 +29,6 @@ public:
            
        }
 
-       return a.size(); 
+       return words; 
     }
 };
